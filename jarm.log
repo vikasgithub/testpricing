@@ -1,0 +1,10 @@
+Thu Mar 01 21:14:59 CST 2018 INFO:    JARM started
+Thu Mar 01 21:14:59 CST 2018 INFO:    Profile 'profile/jarm.properties' not found in current directory
+Thu Mar 01 21:14:59 CST 2018 INFO:    Profile 'profile/jarm.properties' not found in classpath
+Thu Mar 01 21:14:59 CST 2018 INFO:    Running without using profile 'profile/jarm.properties'
+Thu Mar 01 21:14:59 CST 2018 INFO:    Log file 'jarm.log' opened in directory '/Users/i307479/mmm/dataloader/sap_ssc_20_dataloader/dev/dataloader-standalone/com.sap.custdev.projects.fbs.slc.dataloader.lib.test'
+Thu Mar 01 21:14:59 CST 2018 INFO:    JARM properties initialization is ready
+Thu Mar 01 21:14:59 CST 2018 INFO:    JAR file for CPU measurement not found
+Thu Mar 01 21:14:59 CST 2018 INFO:    Default Performance Measurement:
+Thu Mar 01 21:14:59 CST 2018 INFO:      Elapsed time measurement: true
+Thu Mar 01 21:14:59 CST 2018 INFO:      CPU time measurement: false

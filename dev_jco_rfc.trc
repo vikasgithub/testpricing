@@ -1,0 +1,798 @@
+
+**** Error file opened at 20180208 092949 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Error:  >Thu Feb 08 09:29:49,700<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=SSC_DATALOADER GWHOST=sapgdr5ascs.mmm.com GWSERV=sapgw00
+
+ERROR       service 'sapgw00' unknown
+TIME        Thu Feb  8 09:29:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      niuxi.c
+LINE        1814
+DETAIL      NiPGetServByName: 'sapgw00' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Feb 08 09:29:51,667<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=SSC_DATALOADER GWHOST=sapgdr5ascs.mmm.com GWSERV=sapgw00
+
+ERROR       service 'sapgw00' unknown
+TIME        Thu Feb  8 09:29:51 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      nixxsl.cpp
+LINE        184
+DETAIL      NiSrvLGetServNo: service name cached as unknown
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Feb 08 09:29:53,667<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=SSC_DATALOADER GWHOST=sapgdr5ascs.mmm.com GWSERV=sapgw00
+
+ERROR       service 'sapgw00' unknown
+TIME        Thu Feb  8 09:29:53 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      nixxsl.cpp
+LINE        184
+DETAIL      NiSrvLGetServNo: service name cached as unknown
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Feb 08 09:29:57,670<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=SSC_DATALOADER GWHOST=sapgdr5ascs.mmm.com GWSERV=sapgw00
+
+ERROR       service 'sapgw00' unknown
+TIME        Thu Feb  8 09:29:57 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      nixxsl.cpp
+LINE        184
+DETAIL      NiSrvLGetServNo: service name cached as unknown
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180208 122851 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Error:  >Thu Feb 08 12:28:51,260<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner 'sapgdr5ascs.mmm.com:sapgw00' broken
+TIME        Thu Feb  8 12:28:51 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.189:3300; L=169.11.78.86:59941
+SYSTEM CALL recv
+ERRNO       54
+ERRNO TEXT  Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Feb 08 12:28:57,510<    >RfcGetException rc (3) message: CPIC-CALL: CMRCV on convId: 34772702
+
+ERROR       connection to partner 'sapgdr502.mmm.com:sapgw00' broken
+TIME        Thu Feb  8 12:28:57 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.171:3300; L=169.11.78.86:59939
+SYSTEM CALL recv
+ERRNO       54
+ERRNO TEXT  Connection reset by peer
+COUNTER     3
+
+<RfcGetException
+
+
+Error: [2] >Thu Feb 08 12:28:57,511<    RfcException raised by system [DR5|sapgdr502|00]:
+	message: CPIC-CALL: CMRCV on convId: 34772702
+
+ERROR       connection to partner 'sapgdr502.mmm.com:sapgw00' broken
+TIME        Thu Feb  8 12:28:57 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.171:3300; L=169.11.78.86:59939
+SYSTEM CALL recv
+ERRNO       54
+ERRNO TEXT  Connection reset by peer
+COUNTER     3
+
+	return code: RFC_SYS_EXCEPTION (3)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Feb 08 12:33:15,584<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner 'sapgdr5ascs.mmm.com:sapgw00' broken
+TIME        Thu Feb  8 12:28:51 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.189:3300; L=169.11.78.86:59941
+SYSTEM CALL recv
+ERRNO       54
+ERRNO TEXT  Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu Feb 08 12:33:15,584<    RfcException raised by system [C02VP0H6HTDF|SSC_DATALOADER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner 'sapgdr5ascs.mmm.com:sapgw00' broken
+TIME        Thu Feb  8 12:28:51 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.189:3300; L=169.11.78.86:59941
+SYSTEM CALL recv
+ERRNO       54
+ERRNO TEXT  Connection reset by peer
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180209 143730 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Exception thrown [Fri Feb 09 14:37:30,232]: JNI call SAP_CMMAXCONV returns 20 with message: 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Fri Feb  9 14:37:30 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+Info:  >Fri Feb 09 14:37:30,242<    [JCoAPI] Exception while setting system property to JCo property: jco.cpic_maxconv=202 com.sap.conn.jco.JCoRuntimeException: (108) JCO_ERROR_INTERNAL: Value 202 for property jco.cpic_maxconv caused 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Fri Feb  9 14:37:30 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	at com.sap.conn.jco.rt.JCoRuntime.processPublicProperty(JCoRuntime.java:519)
+	at com.sap.conn.jco.rt.JCoRuntime.setSystemProperty(JCoRuntime.java:213)
+	at com.sap.conn.jco.rt.DefaultJCoRuntime.readSystemProperties(DefaultJCoRuntime.java:128)
+	at com.sap.conn.jco.rt.JCoRuntimeFactory.<clinit>(JCoRuntimeFactory.java:24)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.sap.conn.jco.JCo.createJCo(JCo.java:52)
+	at com.sap.conn.jco.JCo.<clinit>(JCo.java:26)
+	at com.sap.conn.jco.JCoDestinationManager.getDestination(JCoDestinationManager.java:104)
+	at com.sap.sxe.db.imp.rfc.connRFC.getJCoDestination(connRFC.java:741)
+	at com.sap.sxe.db.imp.rfc.connRFC.makeExtraction(connRFC.java:149)
+	at com.sap.sxe.db.imp.rfc.connRFC.db_read_table(connRFC.java:434)
+	at com.sap.sxe.db.imp.rfc.connRFC.db_read_table(connRFC.java:471)
+	at com.sap.sxe.db.db.db_read_table(db.java:376)
+	at com.sap.sxe.db.db.db_read_table(db.java:366)
+	at com.sap.spe.pricing.customizing.dao.advanced.localdb.PricingProcedureDAOImpl.getPricingProcedure(PricingProcedureDAOImpl.java:65)
+	at com.sap.spe.pricing.customizing.impl.PricingProcedureBuilder.getPricingProcedure(PricingProcedureBuilder.java:95)
+	at com.sap.spe.pricing.customizing.impl.PricingProcedureBuilder.create(PricingProcedureBuilder.java:65)
+	at com.sap.spe.base.cache.BuilderDispatcher.get(BuilderDispatcher.java:61)
+	at com.sap.custdev.projects.fbs.slc.cml.delegates.CacheFacadeDelegateImpl.fetchData(CacheFacadeDelegateImpl.java:80)
+	at com.sap.custdev.projects.fbs.slc.cml.delegates.CacheFacadeDelegateImpl.get(CacheFacadeDelegateImpl.java:53)
+	at com.sap.custdev.projects.fbs.slc.cml.delegates.CacheFacadeDelegateImpl.get(CacheFacadeDelegateImpl.java:39)
+	at com.sap.spe.condmgnt.customizing.impl.ProcedureObjectManager.createProcedure(ProcedureObjectManager.java:36)
+	at com.sap.spe.condmgnt.customizing.impl.ConditionCustomizingEngine.getProcedure(ConditionCustomizingEngine.java:86)
+	at com.sap.custdev.projects.fbs.slc.cfg.command.GetPricingProcedureInfo.executeCommand(GetPricingProcedureInfo.java:59)
+	at com.sap.custdev.projects.fbs.slc.cfg.ConfigSession.getPricingProcedureInfo(ConfigSession.java:5742)
+	at pricing.PricintAPITest.testGetProcedure(PricintAPITest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: RfcException:
+	message: 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Fri Feb  9 14:37:30 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 108
+	key: RFC_ERROR_INTERNAL
+	at com.sap.conn.rfc.driver.CpicDriver.setCpicMaxConv(CpicDriver.java:970)
+	at com.sap.conn.rfc.engine.DefaultRfcRuntime.setCpicMaxConv(DefaultRfcRuntime.java:118)
+	at com.sap.conn.jco.rt.JCoRuntime.processPublicProperty(JCoRuntime.java:503)
+	... 51 more
+
+
+Error:  >Fri Feb 09 14:37:30,523<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=SPACE ASHOST=sapgdr502.mmm.com SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Fri Feb  9 14:37:30 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      nixxhl.cpp
+LINE        193
+DETAIL      NiHLGetNodeAddr: hostname cached as unknown
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180212 100435 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Error:  >Mon Feb 12 10:04:35,986<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=SPACE ASHOST=sapgdr502.mmm.com SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'sapgdr502.mmm.com' unknown
+TIME        Mon Feb 12 10:04:35 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'sapgdr502.mmm.com' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180212 101036 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Exception thrown [Mon Feb 12 10:10:36,321]: JNI call SAP_CMMAXCONV returns 20 with message: 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 10:10:36 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+Info:  >Mon Feb 12 10:10:36,326<    [JCoAPI] Exception while setting system property to JCo property: jco.cpic_maxconv=202 com.sap.conn.jco.JCoRuntimeException: (108) JCO_ERROR_INTERNAL: Value 202 for property jco.cpic_maxconv caused 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 10:10:36 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	at com.sap.conn.jco.rt.JCoRuntime.processPublicProperty(JCoRuntime.java:519)
+	at com.sap.conn.jco.rt.JCoRuntime.setSystemProperty(JCoRuntime.java:213)
+	at com.sap.conn.jco.rt.DefaultJCoRuntime.readSystemProperties(DefaultJCoRuntime.java:128)
+	at com.sap.conn.jco.rt.JCoRuntimeFactory.<clinit>(JCoRuntimeFactory.java:24)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.sap.conn.jco.JCo.createJCo(JCo.java:52)
+	at com.sap.conn.jco.JCo.<clinit>(JCo.java:26)
+	at com.sap.custdev.projects.fbs.slc.dataloader.facade.JCOLoggingBridge.install(JCOLoggingBridge.java:90)
+	at com.sap.custdev.projects.fbs.slc.dataloader.standalone.DataloaderFacadeImpl.initialDownload(DataloaderFacadeImpl.java:198)
+	at dataloader.InitialDownloadTest.testInitialDownload(InitialDownloadTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: RfcException:
+	message: 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 10:10:36 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 108
+	key: RFC_ERROR_INTERNAL
+	at com.sap.conn.rfc.driver.CpicDriver.setCpicMaxConv(CpicDriver.java:970)
+	at com.sap.conn.rfc.engine.DefaultRfcRuntime.setCpicMaxConv(DefaultRfcRuntime.java:118)
+	at com.sap.conn.jco.rt.JCoRuntime.processPublicProperty(JCoRuntime.java:503)
+	... 34 more
+
+
+Error:  >Mon Feb 12 10:10:36,590<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=SPACE ASHOST=sapgdr502.mmm.com SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 10:10:36 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      nixxhl.cpp
+LINE        193
+DETAIL      NiHLGetNodeAddr: hostname cached as unknown
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180212 101101 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Exception thrown [Mon Feb 12 10:11:01,700]: JNI call SAP_CMMAXCONV returns 20 with message: 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 10:11:01 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+Info:  >Mon Feb 12 10:11:01,706<    [JCoAPI] Exception while setting system property to JCo property: jco.cpic_maxconv=202 com.sap.conn.jco.JCoRuntimeException: (108) JCO_ERROR_INTERNAL: Value 202 for property jco.cpic_maxconv caused 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 10:11:01 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	at com.sap.conn.jco.rt.JCoRuntime.processPublicProperty(JCoRuntime.java:519)
+	at com.sap.conn.jco.rt.JCoRuntime.setSystemProperty(JCoRuntime.java:213)
+	at com.sap.conn.jco.rt.DefaultJCoRuntime.readSystemProperties(DefaultJCoRuntime.java:128)
+	at com.sap.conn.jco.rt.JCoRuntimeFactory.<clinit>(JCoRuntimeFactory.java:24)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.sap.conn.jco.JCo.createJCo(JCo.java:52)
+	at com.sap.conn.jco.JCo.<clinit>(JCo.java:26)
+	at com.sap.custdev.projects.fbs.slc.dataloader.facade.JCOLoggingBridge.install(JCOLoggingBridge.java:90)
+	at com.sap.custdev.projects.fbs.slc.dataloader.standalone.DataloaderFacadeImpl.initialDownload(DataloaderFacadeImpl.java:198)
+	at dataloader.InitialDownloadTest.testInitialDownload(InitialDownloadTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: RfcException:
+	message: 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 10:11:01 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 108
+	key: RFC_ERROR_INTERNAL
+	at com.sap.conn.rfc.driver.CpicDriver.setCpicMaxConv(CpicDriver.java:970)
+	at com.sap.conn.rfc.engine.DefaultRfcRuntime.setCpicMaxConv(DefaultRfcRuntime.java:118)
+	at com.sap.conn.jco.rt.JCoRuntime.processPublicProperty(JCoRuntime.java:503)
+	... 34 more
+
+
+Error:  >Mon Feb 12 10:11:01,966<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=SPACE ASHOST=sapgdr502.mmm.com SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 10:11:01 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      nixxhl.cpp
+LINE        193
+DETAIL      NiHLGetNodeAddr: hostname cached as unknown
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180212 145142 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Exception thrown [Mon Feb 12 14:51:42,036]: JNI call SAP_CMMAXCONV returns 20 with message: 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 14:51:42 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+Info:  >Mon Feb 12 14:51:42,042<    [JCoAPI] Exception while setting system property to JCo property: jco.cpic_maxconv=202 com.sap.conn.jco.JCoRuntimeException: (108) JCO_ERROR_INTERNAL: Value 202 for property jco.cpic_maxconv caused 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 14:51:42 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	at com.sap.conn.jco.rt.JCoRuntime.processPublicProperty(JCoRuntime.java:519)
+	at com.sap.conn.jco.rt.JCoRuntime.setSystemProperty(JCoRuntime.java:213)
+	at com.sap.conn.jco.rt.DefaultJCoRuntime.readSystemProperties(DefaultJCoRuntime.java:128)
+	at com.sap.conn.jco.rt.JCoRuntimeFactory.<clinit>(JCoRuntimeFactory.java:24)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.sap.conn.jco.JCo.createJCo(JCo.java:52)
+	at com.sap.conn.jco.JCo.<clinit>(JCo.java:26)
+	at com.sap.custdev.projects.fbs.slc.dataloader.facade.JCOLoggingBridge.install(JCOLoggingBridge.java:90)
+	at com.sap.custdev.projects.fbs.slc.dataloader.standalone.DataloaderFacadeImpl.initialDownload(DataloaderFacadeImpl.java:198)
+	at dataloader.InitialDownloadTest.testInitialDownload(InitialDownloadTest.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: RfcException:
+	message: 
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 14:51:42 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'C02VP0H6HTDF' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 108
+	key: RFC_ERROR_INTERNAL
+	at com.sap.conn.rfc.driver.CpicDriver.setCpicMaxConv(CpicDriver.java:970)
+	at com.sap.conn.rfc.engine.DefaultRfcRuntime.setCpicMaxConv(DefaultRfcRuntime.java:118)
+	at com.sap.conn.jco.rt.JCoRuntime.processPublicProperty(JCoRuntime.java:503)
+	... 34 more
+
+
+Error:  >Mon Feb 12 14:51:42,332<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=SPACE ASHOST=sapgdr502.mmm.com SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'C02VP0H6HTDF' unknown
+TIME        Mon Feb 12 14:51:42 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      nixxhl.cpp
+LINE        193
+DETAIL      NiHLGetNodeAddr: hostname cached as unknown
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180226 093955 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Error:  >Mon Feb 26 09:39:55,964<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=SPACE ASHOST=sapgdr502.mmm.com SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname 'sapgdr502.mmm.com' unknown
+TIME        Mon Feb 26 09:39:55 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'sapgdr502.mmm.com' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180301 180100 Central Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Error:  >Thu Mar 01 18:01:00,396<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner 'sapgdr5ascs.mmm.com:sapgw00' broken
+TIME        Thu Mar  1 18:01:00 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.189:3300; L=169.11.78.54:59126
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Mar 01 18:01:00,413<    >RfcGetException rc (3) message: CPIC-CALL: CMRCV on convId: 61191119
+
+ERROR       connection to partner 'sapgdr502.mmm.com:sapgw00' broken
+TIME        Thu Mar  1 18:01:00 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.171:3300; L=169.11.78.54:59124
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     3
+
+<RfcGetException
+
+
+Error: [2] >Thu Mar 01 18:01:00,415<    RfcException raised by system [DR5|sapgdr502|00]:
+	message: CPIC-CALL: CMRCV on convId: 61191119
+
+ERROR       connection to partner 'sapgdr502.mmm.com:sapgw00' broken
+TIME        Thu Mar  1 18:01:00 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.171:3300; L=169.11.78.54:59124
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     3
+
+	return code: RFC_SYS_EXCEPTION (3)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Mar 01 18:02:48,279<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner 'sapgdr5ascs.mmm.com:sapgw00' broken
+TIME        Thu Mar  1 18:01:00 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.189:3300; L=169.11.78.54:59126
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu Mar 01 18:02:48,280<    RfcException raised by system [C02VP0H6HTDF|SSC_DATALOADER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner 'sapgdr5ascs.mmm.com:sapgw00' broken
+TIME        Thu Mar  1 18:01:00 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=169.10.48.189:3300; L=169.11.78.54:59126
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.31.jar"/>
+	<classpathentry kind="lib" path="libs/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="libs/org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="libs/jtds-1.2.7.jar"/>
+	<classpathentry kind="lib" path="libs/sapjco3.jar"/>
+	<classpathentry kind="lib" path="libs/sqljdbc41.jar"/>
+	<classpathentry kind="lib" path="libs/ngdbc-2.0.5.jar"/>
+	<classpathentry kind="lib" path="libs/com.sap.custdev.projects.fbs.slc.common-2.5.10.jar" sourcepath="/Users/i307479/Downloads/com.sap.custdev.projects.fbs.slc.common.source-2.5.10.jar"/>
+	<classpathentry kind="lib" path="libs/com.sap.custdev.projects.fbs.slc.database-2.5.10.jar" sourcepath="/Users/i307479/Downloads/com.sap.custdev.projects.fbs.slc.ejb-ipc.source-2.5.10.jar"/>
+	<classpathentry kind="lib" path="libs/com.sap.custdev.projects.fbs.slc.dataloader.lib-2.5.10.jar" sourcepath="/Users/i307479/Downloads/com.sap.custdev.projects.fbs.slc.dataloader.lib.bundle.source-2.5.10.jar"/>
+	<classpathentry kind="lib" path="libs/com.sap.custdev.projects.fbs.slc.engine-2.5.10.jar" sourcepath="/Users/i307479/Downloads/com.sap.custdev.projects.fbs.slc.engine.source-2.5.10.jar"/>
+	<classpathentry kind="lib" path="libs/cachemgmt.jar"/>
+	<classpathentry kind="lib" path="libs/coreserver.jar"/>
+	<classpathentry kind="lib" path="libs/PRC_23.jar"/>
+	<classpathentry kind="lib" path="libs/PRC_UE_CUSTOMER.jar"/>
+	<classpathentry kind="lib" path="libs/lovc-pfunctions-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

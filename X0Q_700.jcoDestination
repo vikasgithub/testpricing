@@ -1,0 +1,10 @@
+jco.client.ashost=ldcix0q.wdf.sap.corp
+jco.client.sysnr=11
+jco.client.client=700
+jco.client.r3name=X0Q
+#jco.client.mshost=
+#jco.client.group=
+jco.client.user=sscdl
+jco.client.passwd=Welcome1
+jco.client.lang=EN
+jco.client.trace=0
